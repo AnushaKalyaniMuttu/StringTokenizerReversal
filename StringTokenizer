@@ -1,0 +1,16 @@
+package com.employee;
+
+import java.util.StringTokenizer;
+
+public class GroupingBy {
+   
+	 public static void main(String args[]){
+	 String name="anusha Kalyani Muttu !";
+	 String newName="";
+		StringTokenizer s=new StringTokenizer(name);
+	while(s.hasMoreTokens()) {
+		newName=s.nextToken()+" "+newName;
+	}
+	System.out.println(newName);
+	}
+}
